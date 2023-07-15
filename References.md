@@ -19,14 +19,28 @@ Top Ideas
     -   Azure Analysis Services (PaaS that provides data model in the cloud)
 
 -   Storage mode can either be import (save at workstation), direct query (make direct connection to the data source) or dual
+
 -   Performance issues can be fixed/ managed by:
+
     -   Use Performance Analyzer tool
     -   Optimize performance using:
         -   Query folding
         -   Query diagnostic
+
 -   Other techniques to optimize performance
+
     -   Process as much data as possible in the original data source.
     -   Use native SQL queries. When using DirectQuery for SQL databases, such as the case for our scenario, make sure that you aren't pulling data from stored procedures or common table expressions (CTEs).
     -   Separate date and time, if bound together. If any of your tables have columns that combine date and time, make sure that you separate them into distinct columns before importing them into Power BI. This approach will increase compression abilities.
+
+-   Resolve data import errors
+
+    -   Query timeout expired:
+
+        -   Query at less busy time
+        -   Pull less data
+
+    -   Data type errors
+        -   Cast/ convert the data
 
 Module 2: Clean, transform and load data in Power BI
