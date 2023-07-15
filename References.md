@@ -8,10 +8,12 @@ Module 1: Get data in Power BI
 Top Ideas
 
 -   Data sources can be from:
+
     -   Flat files (e.g. csv, xlsx, txt)
     -   Relational database (e.g. Connection via SQL server)
         -   SQL statements can be written to query specific datasets
         -   Best practice: Avoid writing SQL query directly in Power BI. Make a view instead.
--
+        -   Dynamic reports can be built using parameters and embedding it in SQL query
+    -   NoSQL database
 
 Module 2: Clean, transform and load data in Power BI
