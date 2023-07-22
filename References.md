@@ -44,3 +44,8 @@ Top Ideas
         -   Cast/ convert the data
 
 Module 2: Clean, transform and load data in Power BI
+
+Top Ideas
+
+-   Power Query Editor enables you to transform imported data
+-   All steps you made via PQE automatically applies whenever the data source connects to PowerBI
