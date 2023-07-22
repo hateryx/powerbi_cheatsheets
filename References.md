@@ -54,3 +54,9 @@ Top Ideas
 -   Simplify the data structure
     -   Replace values (e.g. null)
     -   Remove duplicates
+-   Evaluate and change column data types
+    -   \*Power BI scans the first 1000 rows (for profiling purposes/ data detection/ among others)
+    -   Incorrect data types affects the following:
+        -   Prevent relationship
+        -   Impede proper calculation
+        -   Disrupt hierarchies
