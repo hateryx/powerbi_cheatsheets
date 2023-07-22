@@ -63,3 +63,6 @@ Top Ideas
 -   Combine multiple queries into a single table
     -   Append query
     -   Merge query
+-   Profile data
+    -   By default, only 1000 rows are profiled. This can be changed into <b>Column profiling based on ENTIRE data set</b>
+-
