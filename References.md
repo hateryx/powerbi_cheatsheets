@@ -49,3 +49,8 @@ Top Ideas
 
 -   Power Query Editor enables you to transform imported data
 -   All steps you made via PQE automatically applies whenever the data source connects to PowerBI
+    -   Data can be unpivoted
+    -   Pivot columns
+-   Simplify the data structure
+    -   Replace values (e.g. null)
+    -   Remove duplicates
