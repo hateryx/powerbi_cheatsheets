@@ -60,3 +60,6 @@ Top Ideas
         -   Prevent relationship
         -   Impede proper calculation
         -   Disrupt hierarchies
+-   Combine multiple queries into a single table
+    -   Append query
+    -   Merge query
