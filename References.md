@@ -89,3 +89,5 @@ Top Ideas
             -   Specific visual
         -   Group
         -   Summarize
+-   Measures
+    -   Designed to summarize model data
