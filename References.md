@@ -67,4 +67,16 @@ Top Ideas
     -   Merge query
 -   Profile data
     -   By default, only 1000 rows are profiled. This can be changed into <b>Column profiling based on ENTIRE data set</b>
--
+
+Learning Path: Model data with Power BI
+
+Module 1: Describe Power BI Desktop models
+
+Top Ideas
+
+-   Optimal models are important for delivering good query performance and for minimizing data refresh times
+-   Star Schema Design
+    -   Fact tables
+        -   Purpose is to summarize
+    -   Dimension tables
+        -   Purpose is to query and group
