@@ -80,3 +80,12 @@ Top Ideas
         -   Purpose is to summarize
     -   Dimension tables
         -   Purpose is to query and group
+-   Analytic queries
+    -   Produces query result from data model
+    -   Typically undergoes three phases
+        -   Filter
+            -   Entire report
+            -   Specific page
+            -   Specific visual
+        -   Group
+        -   Summarize
