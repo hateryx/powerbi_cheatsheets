@@ -3,6 +3,8 @@ https://powerbi.microsoft.com/en-us/learning/
 Prepare data for analysis
 https://learn.microsoft.com/en-us/training/paths/prepare-data-power-bi/
 
+Learning Path: Get and transform data with Power BI
+
 Module 1: Get data in Power BI
 
 Top Ideas
