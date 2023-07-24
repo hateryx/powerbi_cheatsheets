@@ -3,11 +3,11 @@ https://powerbi.microsoft.com/en-us/learning/
 Prepare data for analysis
 https://learn.microsoft.com/en-us/training/paths/prepare-data-power-bi/
 
-Learning Path: Get and transform data with Power BI
+# Learning Path: Get and transform data with Power BI
 
-Module 1: Get data in Power BI
+## Module 1: Get data in Power BI
 
-Top Ideas
+##Top Ideas
 
 -   Data sources can be from:
 
@@ -45,7 +45,7 @@ Top Ideas
     -   Data type errors
         -   Cast/ convert the data
 
-Module 2: Clean, transform and load data in Power BI
+## Module 2: Clean, transform and load data in Power BI
 
 Top Ideas
 
@@ -68,9 +68,9 @@ Top Ideas
 -   Profile data
     -   By default, only 1000 rows are profiled. This can be changed into <b>Column profiling based on ENTIRE data set</b>
 
-Learning Path: Model data with Power BI
+# Learning Path: Model data with Power BI
 
-Module 1: Describe Power BI Desktop models
+## Module 1: Describe Power BI Desktop models
 
 Top Ideas
 
@@ -90,4 +90,26 @@ Top Ideas
         -   Group
         -   Summarize
 -   Measures
+
     -   Designed to summarize model data
+
+-   Star Schema
+    -   Mature modeling approach widely adopted by relational data warehouses
+    -   Classify tables whether it is dimension or fact
+
+## Module 2: Choose a Power BI model framework
+
+### Top Ideas
+
+-   Power BI model fundamentals
+    -   Power BI Data Model
+        -   Querable using DAX or MDX
+        -   Power BI data model published in workspace => Power BI dataset
+        -   Is a tabular model (model comprises of table)
+    -   Import model
+        -   Benefits
+            -   Stored entirely in memory = Best query performance
+        -   Limitations
+            -   1 GB Limit per dataset
+        -   Optimization best practices
+            -   Reduce data stored in the table
