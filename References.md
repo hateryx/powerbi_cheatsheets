@@ -102,6 +102,7 @@ Top Ideas
 ### Top Ideas
 
 -   Power BI model fundamentals
+
     -   Power BI Data Model
         -   Querable using DAX or MDX
         -   Power BI data model published in workspace => Power BI dataset
@@ -121,4 +122,25 @@ Top Ideas
     -   Direct Query model
         -   Benefits
             -   Optimized for large data sources
-            -
+            -   Create specialized datasets
+        -   Limitations
+            -   Power Query (M) transformations are not possible
+            -   Analytic queries can impact on source system performance (i.e. server/ database)
+    -   Composite Model
+        -   For recheck at https://learn.microsoft.com/en-us/training/modules/choose-power-bi-model-framework/5-determine-when-to-develop-composite-model
+
+-   Choosing a model framework
+
+    -   Choose the import model whenever possible
+    -   Direct Query model fits best if your report needs real time data OR data source stores large volume of data
+    -   Composite model is preferred for:
+        -   Boosting the query performance of a Direct Query model
+        -   Deliver near real time result from an import model
+        -   Extend a Power BI dataset (or AAS model) with additional data
+    -   Hybrid tables
+    -   Aggregation table
+    -   Plan carefully. In Power BI Desktop, it’s always possible to convert a DirectQuery table to an import table. But it’s not possible to convert an import table to a DirectQuery table.
+
+-   A composite model would comprise a DirectQuery source group containing the sales dataset tables, and an import source group containing the imported web page data.
+-   A hybrid table includes a DirectQuery partition for the current period to deliver near-real time results.
+-   Setting the related dimension tables to dual storage mode will allow Power BI to satisfy higher-grain queries entirely from cache.
