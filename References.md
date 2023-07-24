@@ -112,4 +112,13 @@ Top Ideas
         -   Limitations
             -   1 GB Limit per dataset
         -   Optimization best practices
-            -   Reduce data stored in the table
+            -   Reduce data stored in the table by:
+                -   Group by and summarize to raise the grain of fact tables
+                -   Prefer numeric data type
+                -   Prefer custom column in Power Query instead of calculated column
+                -   Disable Power Query load
+                -   Disable auto date/time
+    -   Direct Query model
+        -   Benefits
+            -   Optimized for large data sources
+            -
