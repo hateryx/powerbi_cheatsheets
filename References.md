@@ -144,3 +144,11 @@ Top Ideas
 -   A composite model would comprise a DirectQuery source group containing the sales dataset tables, and an import source group containing the imported web page data.
 -   A hybrid table includes a DirectQuery partition for the current period to deliver near-real time results.
 -   Setting the related dimension tables to dual storage mode will allow Power BI to satisfy higher-grain queries entirely from cache.
+
+## Module 3: Design a data model in Power BI
+
+### Top Ideas
+
+-   Building a great data model is about simplifying the disarray.
+-   Choose the correct granularity
+-   Dimension tables are used to filter and group the data in fact tables.
