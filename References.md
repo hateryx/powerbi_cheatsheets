@@ -152,3 +152,8 @@ Top Ideas
 -   Building a great data model is about simplifying the disarray.
 -   Choose the correct granularity
 -   Dimension tables are used to filter and group the data in fact tables.
+-   Flatten parent-child hierarchy
+    -   The process of viewing multiple child levels based on a top-level parent is known as flattening the hierarchy. In this process, you are creating multiple columns in a table to show the hierarchical path of the parent to the child in the same record. You will use PATH(), a simple DAX function that returns a text version of the managerial path for each employee, and PATHITEM() to separate this path into each level of managerial hierarchy.
+-   Data Granularity - means the level of detail in the data
+-   Cross filter direction
+    -   You might have lower performance when using bi-directional cross-filtering with many-to-many relationships.
