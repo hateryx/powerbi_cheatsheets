@@ -87,3 +87,20 @@
 -   Data Granularity - means the level of detail in the data
 -   Cross filter direction
     -   You might have lower performance when using bi-directional cross-filtering with many-to-many relationships.
+
+## Module 4: Write DAX formulas for Power BI Desktop models
+
+### Top Ideas
+
+-   Covers the following types of calculations:
+    -   Calculated tables
+        -   Duplicate/ transform <i>existing</i> series of data into a new table
+        -   Increases model storage size
+        -   Can be useful for:
+            -   Role playing dimensions
+                -   Useful when two tables have multiple relationships
+            -   Date tables
+                -   If you do not have a date table, you can create one using calc table
+            -   What-if analysis
+    -   Calculated columns
+    -   Measures
