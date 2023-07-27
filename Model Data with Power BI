@@ -99,8 +99,13 @@
         -   Can be useful for:
             -   Role playing dimensions
                 -   Useful when two tables have multiple relationships
+                -   For example, `Sales` table with `ShipDate` and `OrderDate` column will have multiple relationships to the `Dates` table, specifically the `Date` column. For better model design, the `Dates` table can be duplicated into another table (called as `Ship Dates`) to have dedicated relationship with `ShipDate` column.
             -   Date tables
                 -   If you do not have a date table, you can create one using calc table
             -   What-if analysis
+                -   `Learning debt`
     -   Calculated columns
     -   Measures
+        -   Summarization over model data
+        -   Results are not stored in the model
+        -   Not available in the Power Query
