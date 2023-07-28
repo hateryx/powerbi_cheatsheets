@@ -114,3 +114,13 @@
         -   Returns scalar value (single value)
     -   Calculated table
         -   Returns table object
+    -   Formulas are assembled by using:
+        -   DAX Functions
+        -   DAX Operators
+        -   References to model objects
+        -   Column References
+            -   `Table[Column]`
+        -   Measure References
+            -   `[Measure]`
+        -   DAX Variables
+        -   Whitespace
