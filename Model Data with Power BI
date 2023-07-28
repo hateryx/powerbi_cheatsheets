@@ -124,3 +124,23 @@
             -   `[Measure]`
         -   DAX Variables
         -   Whitespace
+-   Data Types
+    -   Column data types are defined from Power Query
+    -   Measure and Calculated Columns are implicitly defined from formula
+    -   Blank = NULL
+-   DAX Variables !
+    -   Use `VAR` to declare a variable then use `RETURN` for the output
+    -   ```
+        Revenue YoY % =
+            VAR RevenuePriorYear =
+                CALCULATE(
+                    [Revenue],
+                    SAMEPERIODLASTYEAR('Date'[Date])
+                )
+            RETURN
+                DIVIDE(
+                    [Revenue] - RevenuePriorYear,
+                    RevenuePriorYear
+                )
+        ```
+-
