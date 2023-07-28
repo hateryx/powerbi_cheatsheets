@@ -92,7 +92,7 @@
 
 ### Top Ideas
 
--   Covers the following types of calculations:
+-   DAX Formulas covers the following types of calculations:
     -   Calculated tables
         -   Duplicate/ transform <i>existing</i> series of data into a new table
         -   Increases model storage size
@@ -109,3 +109,8 @@
         -   Summarization over model data
         -   Results are not stored in the model
         -   Not available in the Power Query
+-   About DAX Formulas
+    -   Calculated measures
+        -   Returns scalar value (single value)
+    -   Calculated table
+        -   Returns table object
