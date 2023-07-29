@@ -166,3 +166,17 @@
 | Purpose    | Extends a column                            | Summarize model data              |
 | Storage    | Store a value for each row                  | Never store a value               |
 | Visual Use | Can be used for Filter, Summarize and Group | Designed to summarize             |
+
+## Module 5: Add Calculated tables and columns to Power BI Desktop models
+
+### Top Ideas
+
+-   Calculated table
+    -   Use case
+        -   Duplicate table for role playing dimensions
+        -   Create date table
+    -   Disadvantages
+        -   Increase model storage size
+        -   Prolong data refresh time
+-   Row context
+-   When to use a calculated column in place of a Power Query custom column
