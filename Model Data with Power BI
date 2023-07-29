@@ -143,4 +143,11 @@
                     RevenuePriorYear
                 )
         ```
--
+
+## Module 5: Add Measures to the Power BI Desktop Models
+
+### Top Ideas
+
+-   Implicit measures
+    -   These come from aggregation functions on columns
+    -   The most significant limitation of implicit measures is that they only work for simple scenarios, meaning that they can only summarize column values that use a specific aggregation function
