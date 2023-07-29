@@ -158,3 +158,11 @@
     -   Compounded Measures
         -   Nesting measures
         -   This can be used to do away with calculated columns and use measure to optimize data
+-   Difference between calculated columns and measures
+
+|            | Calculated Columns                          | Measures                          |
+| ---------- | ------------------------------------------- | --------------------------------- |
+| Evaluation | Uses row context at data refresh time       | Uses filter context at query time |
+| Purpose    | Extends a column                            | Summarize model data              |
+| Storage    | Store a value for each row                  | Never store a value               |
+| Visual Use | Can be used for Filter, Summarize and Group | Designed to summarize             |
