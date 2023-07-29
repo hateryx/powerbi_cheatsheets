@@ -201,5 +201,15 @@
             -   The `RELATEDTABLE` retrieves values on the many-side.
         -   When the tables aren't related, you can use the `LOOKUPVALUE` DAX function.
     -   Row context is used when calculated column formulas are evaluated. It's also used when a class of functions, known as <i>iterator</i> functions, are used.
--   When to use a calculated column in place of a Power Query custom column
-    -   s
+-   3 Techniques To Add A Column
+
+    -   Add columns to a view or table (as a persisted column), and then source them in Power Query. This option only makes sense when your data source is a relational database and if you have the skills and permissions to do so. However, it's a good option because it supports ease of maintenance and allows reuse of the column logic in other models or reports.
+    -   Add custom columns (using M) to Power Query queries. `Preferred`. Optimal load.
+    -   Add calculated columns (using DAX) to model tables.
+
+-   When to use a calculated column in place of a Power Query custom column.
+
+    -   Depends on summarized model data.
+    -   Needs to use specialized modeling functions that are only available in DAX, such as the RELATED and RELATEDTABLE functions. Specialized functions can also include the <a href="https://learn.microsoft.com/en-us/dax/understanding-functions-for-parent-child-hierarchies-in-dax">DAX parent and child hierarchies</a>, which are designed to naturalize a recursive relationship into columns, for example, in an employee table where each row stores a reference to the row of the manager (who is also an employee).
+
+    <a href="https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-calculated-tables/4-technique">Cheat Reference</a>
