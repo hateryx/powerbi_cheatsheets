@@ -151,3 +151,10 @@
 -   Implicit measures
     -   These come from aggregation functions on columns
     -   The most significant limitation of implicit measures is that they only work for simple scenarios, meaning that they can only summarize column values that use a specific aggregation function
+-   Explicit Measures
+    -   Created via DAX Formula
+    -   Simple Measures
+        -   Aggregates single column or single table
+    -   Compounded Measures
+        -   Nesting measures
+        -   This can be used to do away with calculated columns and use measure to optimize data
