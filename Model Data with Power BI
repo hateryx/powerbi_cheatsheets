@@ -179,4 +179,27 @@
         -   Increase model storage size
         -   Prolong data refresh time
 -   Row context
+    -   Does not extend beyond the table
+        ```
+        Due Fiscal Year =
+        "FY" & YEAR('Due Date'[Due Date])
+        + IF(
+            MONTH('Due Date'[Due Date]) <= 6,
+            1
+        )
+        ```
+    -   If your formula needs to reference columns in other tables, you have two options:
+        -   If the tables are related, directly or indirectly, you can use the ` RELATED` or `RELATEDTABLE` DAX function.
+            -   The `RELATED` function retrieves the value at the one-side of the relationship. (Recommended)
+                `Example:`
+                ```
+                Discount Amount =
+                (Sales[Order Quantity]
+                    * RELATED('Product'[List Price])
+                ) - Sales[Sales Amount]
+                ```
+            -   The `RELATEDTABLE` retrieves values on the many-side.
+        -   When the tables aren't related, you can use the `LOOKUPVALUE` DAX function.
+    -   Row context is used when calculated column formulas are evaluated. It's also used when a class of functions, known as <i>iterator</i> functions, are used.
 -   When to use a calculated column in place of a Power Query custom column
+    -   s
